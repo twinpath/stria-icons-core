@@ -39,9 +39,16 @@
     "icon-set",
     "design-system"
   ],
+  "author": "Stria Icons Authors",
   "repository": {
     "type": "git",
     "url": "https://github.com/twinpath/stria-icons-core.git"
   },
-  "homepage": "https://stria-icons.dev"
+  "bugs": {
+    "url": "https://github.com/twinpath/stria-icons/issues"
+  },
+  "homepage": "https://stria-icons.dyzulk.com",
+  "publishConfig": {
+    "access": "public"
+  }
 }
