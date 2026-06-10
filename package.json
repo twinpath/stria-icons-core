@@ -1,0 +1,47 @@
+{
+  "name": "stria-icons",
+  "version": "0.1.0",
+  "description": "Stria Icons - The Essential Stroke for Modern Interfaces",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "build": "node ../../scripts/optimize-svg.mjs && node ../../scripts/build-webfonts.mjs && node ../../scripts/build-core.mjs"
+  },
+  "main": "./dist/cjs/index.cjs",
+  "module": "./dist/esm/index.mjs",
+  "types": "./dist/types/index.d.ts",
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.mjs",
+      "require": "./dist/cjs/index.cjs",
+      "types": "./dist/types/index.d.ts"
+    },
+    "./svg/*": "./dist/svg/*",
+    "./sprites/*": "./dist/sprites/*",
+    "./webfonts/*": "./dist/webfonts/*",
+    "./scss/*": "./dist/scss/*",
+    "./less/*": "./dist/less/*",
+    "./css/*": "./dist/css/*",
+    "./js/*": "./dist/js/*",
+    "./metadata": "./dist/icons.json"
+  },
+  "files": [
+    "dist",
+    "LICENSE",
+    "LICENSE-ICONS",
+    "README.md"
+  ],
+  "sideEffects": false,
+  "keywords": [
+    "icons",
+    "svg",
+    "stria",
+    "icon-set",
+    "design-system"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/twinpath/stria-icons-core.git"
+  },
+  "homepage": "https://stria-icons.dev"
+}

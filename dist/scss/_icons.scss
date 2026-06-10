@@ -1,0 +1,12 @@
+// Stria Icons - Icon Content Mappings (auto-generated)
+
+@mixin stria-icon($content) {
+  &::before {
+    content: $content;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+  }
+}
