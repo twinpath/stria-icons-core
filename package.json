@@ -1,11 +1,11 @@
 {
   "name": "stria-icons",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "Stria Icons - The Essential Stroke for Modern Interfaces",
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "build": "node ../../scripts/optimize-svg.mjs && node ../../scripts/build-webfonts.mjs && node ../../scripts/build-core.mjs"
+    "build": "node ../../scripts/optimize-svg.mjs && node ../../scripts/build-core.mjs"
   },
   "main": "./dist/cjs/index.cjs",
   "module": "./dist/esm/index.mjs",

@@ -66,7 +66,7 @@
   var currentScript = document.currentScript;
   var dataDirUrl = '';
   if (currentScript && currentScript.src) {
-    dataDirUrl = currentScript.src.replace(/\/js\/[^\/]+$/, '/data/');
+    dataDirUrl = currentScript.src.replace(/\/js\/[^/]+$/, '/data/');
   } else {
     dataDirUrl = '../data/';
   }

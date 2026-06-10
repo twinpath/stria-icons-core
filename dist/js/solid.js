@@ -55,7 +55,7 @@
   var currentScript = document.currentScript;
   var dataUrl = '';
   if (currentScript && currentScript.src) {
-    dataUrl = currentScript.src.replace(/\/js\/[^\/]+$/, '/data/' + style + '.json');
+    dataUrl = currentScript.src.replace(/\/js\/[^/]+$/, '/data/' + style + '.json');
   } else {
     dataUrl = '../data/' + style + '.json';
   }
